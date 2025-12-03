@@ -8,7 +8,7 @@ const tempCata = document.getElementById("numCata")
 const selection = document.getElementById("selection")
 const radii = document.getElementById("radii")
 const statis = document.getElementById("statis")
-
+const dropDown = document.getElementById("dropDown")
 let percentage = 0 
 let tries = 0
 let success = 0
@@ -147,6 +147,10 @@ ansType.focus()
 }
 
 
+function slide() {
+     const 
+}
+
     if (!perim && !circumfer) {
 generateSq()
 }
@@ -158,3 +162,4 @@ else if (perim) {
 else if (circumfer) {
     generateCircumfer()
 }
+
