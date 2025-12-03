@@ -1,7 +1,9 @@
 #square {
     background-color: rgba(36, 145, 255, 0.583);
 }
-
+#dropDown {
+	cursor: pointer;
+}
 #heightID, #square, #heightID2 {
     display: inline-block;
 }
@@ -124,5 +126,6 @@ details {
     width: 100%;
     cursor: pointer;
 }
+
 
 
