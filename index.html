@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pericula Maths</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Pericular Maths</h1>
+    <template id="numCata">
+        <div class="box">
+        <h4 id="number"></h4>
+        </div>
+    </template>
+    <div id="selection">
+    
+   </div>
+   <div class="main">
+   <div class="hold1">
+    <h4 id="widthID"></h4>
+    <h4 id="heightID2"></h4>
+    <div id="square"><p id="radii"></p></div>
+
+    <h4 id="heightID"></h4>
+    <h4 id="widthID2"></h4>
+
+ </div>
+ <div class="hold2">
+    <form>
+        <label for="ansType">Answer (cm): </label>
+        <input type="number" id="ansType" placeholder="10">
+    </form>
+    <nav>
+    <button type=button onclick="circumfer = false; perim = false; generateSq()">Area</button>
+    <button type=button onclick="perim = true; circumfer = false; generatePeri()">Perimeter</button>
+    <button type=button onclick="circumfer = true; perim = false; generateCircumfer()">Circumference</button>
+    <button type=button onclick="submit()">Submit</button>
+    </nav>
+    <h5 id="statis">Score: 0/0 0%</h5>
+    </div>
+    </div>
+</div>
+
+<div class="helper">
+    <details><summary>Need Help?</summary>
+    <h2>How to Play:</h2>
+    <h3>Area</h3>
+    <p>You multiply the two numbers together, as known as the width (bottom of the rectangle) and the height(The side of a rectangle).</p>
+    <h3>Perimeter</h3>
+    <p>You add up all the sides of the shape, for this case, just add all the numbers up or add the height and width and multiply them both with two.</p>
+    <h3>Circumference</h3>
+    <p>Firstly, the number nearly the circle is the radius, use 2 x Pi x Radius to find out the circumference. If you ever find need a diameter, just multiply it by Pi.</p>
+    </details>
+</div>
+    <script src="main.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+#square {
+    background-color: rgba(36, 145, 255, 0.583);
+}
+
+#heightID, #square, #heightID2 {
+    display: inline-block;
+}
+#heightID, #square, #heightID2, #widthID, #widthID2 {
+    margin: 2px;
+    font-weight: none;
+    font-size: 1em;
+}
+#selection {
+    height: 25px;
+    padding: 2px;
+    margin: 5px;
+    display: flex;
+   width: 30px;
+   background-color: powderblue;
+   justify-content: center;
+   align-items: center;
+   width: 90%;
+    
+}
+
+.box {
+    background-color: lime;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    text-align: center;
+    margin: 0;
+   
+    justify-content: center;
+    align-items: center;
+    font-family: 1.3em;
+
+height: 100%;
+width: 100%;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.473);
+   border-radius: 5px;
+   border: 1px solid grey;
+   cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(211, 211, 211, 0.632);
+}
+
+button:active {
+    background-color: rgba(147, 146, 146, 0.632);
+}
+
+.container {
+    background-color: rgba(192, 192, 192, 0.199);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    
+    border: 2px solid white;
+    height: 60vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.helper {
+    background-color: rgba(192, 192, 192, 0.199);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+	
+   
+}
+
+#radii {
+    position: relative;
+    top: 9px;
+    left: 3px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.hold1 {
+    float: left;
+    width: 49.3%;
+    height: 60%;
+    align-items: center;
+}
+
+.hold2 {
+    
+     width: 50%;
+    height: 60%;
+    align-items: center;
+    border-left: 1px solid black;
+}
+
+.hold1, .hold2 {
+    position: relative;
+    top: 30px;
+    height: 30vh;
+
+}
+
+details {
+    width: 100%;
+    cursor: pointer;
+}
+
