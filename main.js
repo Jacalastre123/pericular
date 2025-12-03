@@ -153,7 +153,7 @@ function slide() {
      helper.appendChild(helpTemp)
 
      dropDown.onclick = function() {
-          document.remove(helpTemp)
+          helpTemp.parentNode.removeChild(helpTemp)
           dropDown.onclick = slide
      }
 }
@@ -169,6 +169,7 @@ else if (perim) {
 else if (circumfer) {
     generateCircumfer()
 }
+
 
 
 
