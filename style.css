@@ -65,7 +65,7 @@ button:active {
 }
 
 .container {
-    background-color: rgba(192, 192, 192, 0.199);
+    background-color: rgba(192, 192, 192, 0.3);
     padding: 10px;
     border-radius: 5px;
     width: 100%;
@@ -77,11 +77,11 @@ button:active {
 }
 
 .helper {
-    background-color: rgba(192, 192, 192, 0.199);
+    background-color: rgba(192, 192, 192, 0.3);
     padding: 10px;
     border-radius: 5px;
     width: 100%;
-	
+	border: 2px solid white;
    
 }
 
@@ -124,4 +124,5 @@ details {
     width: 100%;
     cursor: pointer;
 }
+
 
