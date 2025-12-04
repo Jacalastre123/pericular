@@ -149,11 +149,11 @@ ansType.focus()
 
 
 function slide() {
-     const helpTemp = document.getElementById("helpTemp").content.cloneNode(true)
-     helper.appendChild(helpTemp)
+     const helpTempC = document.getElementById("helpTemp").content.cloneNode(true)
+     helper.appendChild(helpTempC)
 
      dropDown.onclick = function() {
-          helpTemp.parentNode.removeChild(helpTemp)
+          helpTempC.parentNode.removeChild(helpTempC   )
           dropDown.onclick = slide
      }
 }
@@ -169,6 +169,7 @@ else if (perim) {
 else if (circumfer) {
     generateCircumfer()
 }
+
 
 
 
